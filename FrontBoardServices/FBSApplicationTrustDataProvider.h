@@ -2,6 +2,6 @@
 
 @interface FBSApplicationTrustDataProvider : NSObject
 
-@property (assign, nonatomic) long long trustStateForApplication;
+@property (assign, nonatomic) unsigned long long trustStateForApplication;
 
 @end

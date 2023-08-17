@@ -7,7 +7,7 @@ typedef NS_ENUM(NSInteger, FBSApplicationTrustState) {
     FBSApplicationTrustStateProfileNeedsNetworkValidation,
     FBSApplicationTrustStateNeedsExplicitUserTrust,
     FBSApplicationTrustStateTrusted,
-    FBSApplicationTrustStateSignatureVersionUnsupported,
+    FBSApplicationTrustStateSignatureVersionUnsupported
 };￼
 
 @interface FBSApplicationTrustDataProvider : NSObject
